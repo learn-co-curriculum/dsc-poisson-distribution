@@ -32,7 +32,6 @@ $\mu$: (mu, pronounced "myew")-- The average number of successes over a given ti
 $x$: Our random variable--the number of successes we want to find the probability mass of given our knowledge of $\mu$.
 
 
-
 ### Relationship to the Binomial Distribution
 
 The poisson distribution has a special relation to the binomial distribution. The theoretical underpinnings are as follows. Imagine that we take a time period and break it into subintervals that are so small that at most one successful event could occur. We can then imagine that for any of these subintervals, a binomial distribution could apply where there is some probability of the event occuring p, a probability q=1-p that the event does not occur, and a probability of 0 that more then one event occurs. We assume that as we cut time into smaller and smaller intervals, the chance of a success should go down. If we take the limit of the binomial distribution as n goes to infinity (more and more subintervals that are progressively smaller), the result is the poisson distribution.
@@ -66,7 +65,7 @@ Take a look at the following graph--note the relationship of each line to it's g
 
 <img src='poisson.png'>
 
-#### The Rest of the Formula
+### The Rest of the Formula
 
 Don't let the other terms in that equation scare you--you've seen them before, and even if you haven't they're quite easy to work with:
 
@@ -74,6 +73,6 @@ $e$: Euler's Constant, which is $e \approx 2.71828$. You may also know this as t
 
 $x!$: The factorial of x.  For example, $3! = 3 * 2 * 1 = 6$ 
 
-# Conclusion
+## Summary
 
 In this lesson, we learned about the Poisson Distribution, the Poisson Probability Formula, and how we can use this distribution to solve real world problems!

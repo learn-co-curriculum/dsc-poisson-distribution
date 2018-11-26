@@ -41,7 +41,7 @@ $$p(x) = \binom{n}{x}p^x(1-p)^{n-x}$$
 
 $$\lambda = n*p$$
 
-Poisson Probability Distribution: $$p(x) = \frac{\lambda^xe^{-x}}{x!}$$
+Poisson Probability Distribution: $$p(x) = \frac{\lambda^xe^{-\lambda}}{x!}$$
 
 Also note that lambda $\lambda$ is the now the average number of successes that we anticipate in a given interval--The probability $p$ of success, times the number of intervals $n$. This is then exactly how the poisson is used in practice--if we know the average number of occurences in a given interval, what is the probability that the actual number of occurences is slightly more, slightly less, far more or far less?
 
@@ -49,7 +49,7 @@ Also note that lambda $\lambda$ is the now the average number of successes that 
 
 Let's take another look at the formula for the Poisson Probability Distribution:
 
-$$p(x) = \frac{\lambda^xe^{-x}}{x!}$$
+$$p(x) = \frac{\lambda^xe^{-\lambda}}{x!}$$
 
 In the other statistical distributions we've explored, we were explcitly given the probability of a success or failure as one of our parameters. In this example, we are not given this probability--however, we know how likely an event is to occur the mean number of times over a given time period, which means that we actually **do** know the probability--we just need to do some basic calculations to discover this probability. 
 

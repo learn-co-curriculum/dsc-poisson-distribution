@@ -13,7 +13,7 @@ You will be able to:
 
 ## What is the Poisson Distribution?
 
-The **_Poisson Distribution_** is yet another statistical distribution you can use to answer questions about the probability of a given number of successes, the probability of success and a series of independent trials.  Specifically, the Poisson Distribution allows us to calculate the probability of a given event happening by examining the mean number of events that happen in a given time period.  Given a set time period, we can use the Poisson Distribution to predict how many times a given event will happen over that time period.  To help you better understand this, let's examine a few sample questions that we can answer using the Poisson Distribution. 
+The **Poisson Distribution** is yet another statistical distribution you can use to answer questions about the probability of a given number of successes, the probability of success and a series of independent trials.  Specifically, the Poisson Distribution allows us to calculate the probability of a given event happening by examining the mean number of events that happen in a given time period.  Given a set time period, we can use the Poisson Distribution to predict how many times a given event will happen over that time period.  To help you better understand this, let's examine a few sample questions that we can answer using the Poisson Distribution. 
 
 ### Sample Question 1
 

@@ -63,7 +63,7 @@ In light of this, it makes sense for us to calculate the probability that a cust
 
 Take a look at the following graph - note the relationship of each line to its given $\lambda$ parameter:
 
-<img src='images/poisson.png'>
+<img src='images/new_poisson.png' width="400">
 
 ### The Rest of the Formula
 
@@ -76,3 +76,8 @@ $x!$: The factorial of x.  For example, $3! = 3 * 2 * 1 = 6$
 ## Summary
 
 In this lesson, you learned about the Poisson Distribution, the Poisson Probability Formula, and how you can use this distribution to solve real-world problems!
+
+
+```python
+
+```

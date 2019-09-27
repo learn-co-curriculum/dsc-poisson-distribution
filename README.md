@@ -29,7 +29,7 @@ In order to use the Poisson Distribution, we only need to know a few parameters:
 
 $\mu$: The average number of successes over a given time period. For instance, the average number of customers that walk into a store in a given hour, or the average number of speeding violations a police officer sees in a shift.
 
-$x$: Our random variable--the number of successes we want to find the probability mass of given our knowledge of $\mu$.
+$x$: Our random variable - the number of successes we want to find the probability mass of given our knowledge of $\mu$.
 
 
 ### Relationship to the Binomial Distribution

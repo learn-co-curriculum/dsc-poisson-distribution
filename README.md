@@ -9,11 +9,11 @@ In this lesson, you'll learn about the **Poisson Distribution** and explore some
 
 You will be able to:
 
-* Understand and explain the Poisson Distribution and its use cases
+* Explain the parameters of the Poisson distribution and its use cases
 
 ## What is the Poisson Distribution?
 
-The **Poisson Distribution** is yet another statistical distribution you can use to answer questions about the probability of a given number of successes, the probability of success, and a series of independent trials. Specifically, the Poisson Distribution allows us to calculate the probability of a given event happening by examining the mean number of events that happen in a given time period. Given a set time period, we can use the Poisson Distribution to predict how many times a given event will happen over that time period. To help you better understand this, let's examine a few sample questions that we can answer using the Poisson Distribution. 
+The **Poisson Distribution** is yet another statistical distribution you can use to answer questions about the probability of a given number of successes, the probability of success, and a series of independent trials. Specifically, the Poisson Distribution allows you to calculate the probability of a given event happening by examining the mean number of events that happen in a given time period. Given a set time period, we can use the Poisson Distribution to predict how many times a given event will happen over that time period. To help you better understand this, let's examine a few sample questions that we can answer using the Poisson Distribution. 
 
 ### Sample Question 1
 
@@ -34,7 +34,7 @@ $x$: Our random variable - the number of successes we want to find the probabili
 
 ### Relationship to the Binomial Distribution
 
-The Poisson distribution has a special relation to the binomial distribution. The theoretical underpinnings are as follows. Imagine that we take a time period and break it into subintervals that are so small that at most one successful event could occur. We can then imagine that for any of these subintervals, a binomial distribution could apply where there is some probability of the event occurring, $p$, a probability $q=1-p$ that the event does not occur, and a probability of 0 that more than one event occurs. We assume that as we cut time into smaller and smaller intervals, the chance of success should go down. If we take the limit of the binomial distribution as $n$ goes to infinity (more and more subintervals that are progressively smaller), the result is the Poisson distribution.
+The Poisson distribution has a special relation to the binomial distribution. The theoretical underpinnings are as follows. Imagine that we take a time period and break it into $n$ subintervals that are so small that at most one successful event could occur. We can then imagine that for any of these subintervals, a binomial distribution could apply where there is some probability of the event occurring, $p$, a probability $q=1-p$ that the event does not occur, and a probability of 0 that more than one event occurs. We assume that as we cut time into smaller and smaller intervals, the chance of success should go down. If we take the limit of the binomial distribution as $n$ goes to infinity (more and more subintervals that are progressively smaller and smaller), the result is the Poisson distribution.
 
 Binomial Probability Distribution:
 $$p(x) = \binom{n}{x}p^x(1-p)^{n-x}$$
@@ -43,7 +43,7 @@ $$\lambda = n*p$$
 
 Poisson Probability Distribution: $$p(x) = \frac{\lambda^xe^{-\lambda}}{x!}$$
 
-Also note that lambda $\lambda$ is the now the average number of successes that we anticipate in a given interval--The probability $p$ of success, times the number of intervals $n$. This is then exactly how the Poisson is used in practice--if we know the average number of occurrences in a given interval, what is the probability that the actual number of occurrences is slightly more, slightly less, far more or far less?
+Also note that lambda $\lambda$ is the now the average number of successes that we anticipate in a given interval: the probability $p$ of success, times the number of intervals $n$. This is then exactly how the Poisson is used in practice--if we know the average number of occurrences in a given interval, what is the probability that the actual number of occurrences is slightly more, slightly less, far more or far less?
 
 ### Understanding the Formula
 
@@ -69,7 +69,7 @@ Take a look at the following graph - note the relationship of each line to its g
 
 Don't let the other terms in that equation scare you - you've seen them before, and even if you haven't they're quite easy to work with:
 
-$e$: Euler's Constant, which is $e \approx 2.71828$. You may also know this as the base of the natural logarithm system. On calculators, this is the `exp` button.  In Python, we can access it by using NumPy's `np.exp()` function. 
+$e$: Euler's Constant, which is $e \approx 2.71828$. You may also know this as the base of the natural logarithm. On calculators, this is the `exp` button.  In Python, we can access it by using NumPy's `np.exp()` function. 
 
 $x!$: The factorial of $x$.  For example, $3! = 3 * 2 * 1 = 6$ 
 

@@ -1,4 +1,3 @@
-
 # Poisson Distribution
 
 ## Introduction
@@ -63,7 +62,7 @@ In light of this, it makes sense for us to calculate the probability that a cust
 
 Take a look at the following graph - note the relationship of each line to its given $\lambda$ parameter:
 
-<img src='images/new_poisson.png' width="400">
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/new_poisson.png' width="400">
 
 ### The Rest of the Formula
 
